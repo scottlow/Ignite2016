@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Ignite 2016 Demo",
+  "background": {
+  	"scripts": ["background.js"],
+  	"persistent": true
+  },
+  "browser_action": {
+    "default_title": "Ignite 2016 Demo",
+    "default_icon": {
+      "19": "icon.png"
+    }
+  }, 
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "description": "Demonstrates messaging between the three extension contexts (background scripts, content scripts and popups).",
+  "version": "1.0.0.0",
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "http://*/*",
+    "https://*/*"
+  ] 
+}

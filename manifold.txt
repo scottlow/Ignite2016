@@ -1,0 +1,3 @@
+manifoldjs -l debug -p edgeextension -f edgeextension -m "<EXTENSION LOCATION>\manifest.json
+
+manifoldjs -l debug -p edgeextension package <EXTENSION NAME>\edgeextension\manifest\
