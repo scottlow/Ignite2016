@@ -6,12 +6,11 @@ For any specific questions, feel free to reach out to [@MSEdgeDev](https://twitt
 ## Repository Index
 This repository contains several directories and files that correspond to various portions of the presentation:
 
-1. [Ignite 2016 Extension Demo](./Ignite 2016 Extension Demo): This directory contains the **unconverted** Chrome extension with all request counting code commented out. To add the request counting code, please add `"default_popup": "popup/popup.html"` to the `"browserAction"` section of [manifest.json](./Ignite 2016 Extension Demo\manifest.json) and uncomment the commented lines of code in [background.js](./Ignite 2016 Extension Demo\background.js)
+1. [Ignite 2016 Extension Demo](./Ignite 2016 Extension Demo): This directory contains the **unconverted** Chrome extension with all request counting code commented out. To add the request counting code, please add `"default_popup": "popup/popup.html"` to the `"browserAction"` section of [manifest.json](./Ignite 2016 Extension Demo/manifest.json) and uncomment the commented lines of code in [background.js](./Ignite 2016 Extension Demo/background.js)
 2. [Ignite 2016 Extension Demo Fixed](./Ignite 2016 Extension Demo Fixed): This directory contains the **converted** Edge extension that has been fixed to include the workaround for the [Edge bug](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/8473140/) this extension exposed.
-3. [Ignite 2016 Packaging Demo](./Ignite 2016 Packaging Demo): This direcotry is empty and can be used as the root directory for executing the manifoldjs commands below after cloning this repository.
-4. [Ignite 2016 WebDriver Demo](./Ignite 2016 WebDriver Demo): This directory contains a Visual Studio project that demonstrates how an extension can be sideloaded in Microsoft Edge using Microsoft WebDriver.
-5. [manifold.txt](./manifold.txt): This is a text file that contains the scaffolding and packaging commands necessary to create an extension AppX using manifoldjs
-6. [Scott Low - Building Extensions in Microsoft Edge.pptx](./Scott Low - Building Extensions in Microsoft Edge.pptx): This is slide deck that was presented at Ignite NZ.
+3. [Ignite 2016 WebDriver Demo](./Ignite 2016 WebDriver Demo): This directory contains a Visual Studio project that demonstrates how an extension can be sideloaded in Microsoft Edge using Microsoft WebDriver.
+4. [manifold.txt](./manifold.txt): This is a text file that contains the scaffolding and packaging commands necessary to create an extension AppX using manifoldjs
+5. [Scott Low - Building Extensions in Microsoft Edge.pptx](./Scott Low - Building Extensions in Microsoft Edge.pptx): This is slide deck that was presented at Ignite NZ.
 
 ## Building/Porting an Extension
 The following links will be useful for getting started with building an extension and porting it to Edge:
