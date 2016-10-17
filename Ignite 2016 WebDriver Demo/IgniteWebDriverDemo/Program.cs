@@ -46,6 +46,7 @@ namespace IgniteWebDriverDemo
             // Create a new EdgeDriver with the specified capabilities object
             _driver = new EdgeDriver(edgeOptions);
             _driver.Manage().Window.Maximize();
+            _driver.Url = "https://www.bing.com";
         }
     }
 }
