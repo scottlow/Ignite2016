@@ -45,7 +45,7 @@ To package an extension and create an AppX, please follow the steps below (make 
 2. Edit the generated `appxmanifest.xml` file inside the created `manifest` directory and replace any generated values with their actual values in DevCenter
 3. Run the packaging command: `manifoldjs -l debug -p edgeextension package "<GENERATED FOLDER>\edgeextension\manifest\"`
 
-Note: If you are packaging an extension for internal (Enterprise) distribution only, the only requirement is that the `Publisher` property be the same as the `Publisher` property that was used to generate the certificate that will be used to sign the AppX after its creation. For more information, see the "Testing the Generated AppX (with signing)" section of this document below.
+Note: If you are packaging an extension for internal (Enterprise) distribution only, you do not need to fill in the `Identity` section with values from DevCenter. The only requirement is that the `Publisher` property in your `AppXManifest.xml` be the same as the `Publisher` property used to generate the certificate that will be used to sign the AppX after its creation. For more information, see the "Testing the Generated AppX (with signing)" section of this document below.
 
 ### Testing the Generated AppX (without signing)
 To unpack and test your generated AppX without signing it, please follow the steps below:
