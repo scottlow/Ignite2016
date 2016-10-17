@@ -15,9 +15,9 @@ This repository contains several directories and files that correspond to variou
 ## Building/Porting an Extension
 The following links will be useful for getting started with building an extension and porting it to Edge:
 
-1. [Google's getting started with extensions documentation](https://developer.chrome.com/extensions/getstarted)
-2. [Edge specific extension documentation](http://aka.ms/ext-docs)
-3. [Microsoft Edge Extension Toolkit](http://aka.ms/ext-porting): A Windows application automatically fixes manifest files and polyfills APIs to convert Chrome extensions to Edge extensions.
+1. [Google's getting started with extensions in Chrome documentation](https://developer.chrome.com/extensions/getstarted)
+2. [Microsoft's Edge specific extension documentation](http://aka.ms/ext-docs)
+3. [Microsoft Edge Extension Toolkit](http://aka.ms/ext-porting): A Windows Store application that automatically fixes manifest files and polyfills APIs to convert Chrome extensions to Edge extensions.
 4. [Microsoft Edge Issue Tracker](http://aka.ms/edge-issues): Allows developers to file bugs (now including extension bugs) against Microsoft Edge that are sent directly to engineers. 
 
 ## Loading Extensions in WebDriver
